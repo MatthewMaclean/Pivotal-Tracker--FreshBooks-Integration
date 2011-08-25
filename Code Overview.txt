@@ -1,0 +1,25 @@
+	The reason that I did not use a user script for the chrome extension is that I couldn't use @require, @resource, or GM_xmlhttprequest. All three of which were crucial parts to my user script. This meant that I needed to split up the browser specific code. I did this by having main.js contain all the common code, and then included the browser specifc js and css within either firefox.user.js or the documents in the chrome extension folder. 
+
+	I used the python script to allow for only one copy of main.js to have to be kept, with the python script pulling all the required folders and files into a unpacked extension folder.
+
+	GM_xmlhttprequest was used in the firefox script as I needed to make a cross server ajax call, and recieve xml. Using the Greasemonkey specific ajax request was used as it allows for any datatype to be recieved with a cross server call, instead of just jsonp.
+
+	I abstracted the freshbooks api call as most of the information entered was similar each time, and it allowed for the chrome version and firefox version to use different methods to make the ajax request.
+
+	I used the special jQueryUI package for the Greasemonkey application as Greasemonkey does not support jQueryUI very well. There are still compatibility issues though. The chrome extension on the other hand did not like the modified jQueryUI library, so a seperate library was downloaded and used.
+
+	I do not make the Freshbooks time entry and the Pivotal Tracker task entry asychronously as if the Freshbooks one does not succeed, I do not want Pivotal Tracker to log any time so as to help bring attention to the failed request.
+
+	So many calls are made to the dialog box to get its values as I didn't have sufficient time to figure out how to encapsulate the functions and create variables that would store the information which the functions could access. A global variable was not used due to possible asynchronous problems with that solution, though the current solution has the same problem.
+
+	I have to wait for Pivotal Tracker to make an ajax call and load up the stories before any of the major processing can occur. This is why I have the function checkForAjaxLoad called every 250ms at the beginning of the program.
+
+	I have to wait for Pivotal Tracker to save information to the database when tasks are edited, which is why I was a few seconds before updating the button's text.
+
+	I did not code modifications of Pivotal Tracker tasks which are time entries to propagate to Freshbooks as I did not have time to work out the security measures in making sure that one person could not change someone else's Freshbooks time entries. 
+
+	Time was stored in the hours:minutes form on Pivotal Tracker as people said they found it easier to work with than just working in hours (the method used by freshbooks)
+
+	If a time entry into freshbooks has the same project, task, and storyID, then the time will be added upon and extra notes will be appended to the bottom of the story. This is done to prevent an excessive amount of time entries in freshbooks in the case of regular time entries. With this solution though, currenly if the story's description is changed in pivotal tracker, that update will not be reflected in Freshbooks.
+
+	
