@@ -28,10 +28,10 @@
 var globalVar ={
 	
 	//edit the following 4 variables appropriately
-	'name' : "Matt Maclean",									//your full name
-	'ptKey' : "ab9b8547cffa2e7b960f143d73e2a0e4", 				//pivotaltracker.com >> profile >> API Token at bottom of screen
-	'fbKey' : "aff72954fcf2eff70c2db306fcef8e0e",				//your freshbooks site >> profile >> Authentication Token at bottom of screen
-	'fbURL' : "https://myplanet.freshbooks.com/api/2.1/xml-in",	//your freshbooks site >> profile >> API URL at bottom of screen
+	'name' : "",				//your full name
+	'ptKey' : "", 				//pivotaltracker.com >> profile >> API Token at bottom of screen
+	'fbKey' : "",				//your freshbooks site >> profile >> Authentication Token at bottom of screen
+	'fbURL' : "",				//your freshbooks site >> profile >> API URL at bottom of screen
 	
 	
 	
