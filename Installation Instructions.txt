@@ -20,7 +20,7 @@
 4. Right click on the "Freshbooks Integration" User Script and click "Show Containing 
 Folder"
 5. Follow the Main.js instructions
-6. For updating the app, you will have to DELETE THE FOLDER CONTAINING THE USERSCRIPT FILES and before repeating these intructions, starting at step 2. This is required as the downloaded files will occasionally be cached.
+6. For updating the app, you will have to DELETE THE FOLDER CONTAINING THE USERSCRIPT FILE and before repeating these intructions, starting at step 2. You are required to do this as otherwise the old versions of the file will be used.
 
 
 
