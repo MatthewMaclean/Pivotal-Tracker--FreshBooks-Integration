@@ -2,11 +2,12 @@
 
 1. Copy The ChromeFreshbooksIntegration folder to a local area on your computer.
 2. Follow the Main.js Instrucions
-3. Open Chrome
-4. Open the extensions menu (tools>>extensions)
-5. Expand the Developer Mode Menu (located on right side of Extensions Page)
-6. Click "Load unpacked extension" and open the ChromeFreshbooksIntegration folder
-7. To update the app, just follow these instructions again.
+3. run the createGoogleExtension.py script
+4. Open Chrome
+5. Open the extensions menu (tools>>extensions)
+6. Expand the Developer Mode Menu (located on right side of Extensions Page)
+7. Click "Load unpacked extension" and open the ChromeFreshbooksIntegration folder
+8. To update the app, just follow these instructions again.
 
 
 
