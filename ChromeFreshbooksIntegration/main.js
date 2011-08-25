@@ -18,7 +18,7 @@
 
 /*
  * Future Features?
- * 
+ *
  *   - Choose from non-time related tasks to populate extra notes field
  */
 

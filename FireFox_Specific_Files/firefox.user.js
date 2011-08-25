@@ -3,11 +3,11 @@
 // @include https://www.pivotaltracker.com/projects/*
 // @exclude https://www.pivotaltracker.com/projects/
 // @exclude https://www.pivotaltracker.com/projects/*/*
-// @require http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js
-// @require http://freshbooks-proxy.coop.mpdagile.com/main.js
-// @require http://userscripts.org/scripts/source/106368.user.js
-// @require http://freshbooks-proxy.coop.mpdagile.com/jquery.sexy-combo-2.1.3/jquery.sexy-combo.min.js
-// @resource sexy-combo.css http://freshbooks-proxy.coop.mpdagile.com/jquery.sexy-combo-2.1.3/css/sexy-combo.css
+// @require http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js C:\dev\webdev\Pivotal Tracker, FreshBooks Integration
+// @require https://MatthewMaclean@github.com/MatthewMaclean/Pivotal-Tracker--FreshBooks-Integration.git/main.js
+// @require https://MatthewMaclean@github.com/MatthewMaclean/Pivotal-Tracker--FreshBooks-Integration.git/FireFox_Specific_Files/106368.user.js
+// @require https://MatthewMaclean@github.com/MatthewMaclean/Pivotal-Tracker--FreshBooks-Integration.git/jquery.sexy-combo-2.1.3/jquery.sexy-combo.min.js
+// @resource sexy-combo.css https://MatthewMaclean@github.com/MatthewMaclean/Pivotal-Tracker--FreshBooks-Integration.git/jquery.sexy-combo-2.1.3/css/sexy-combo.css
 
 // @name Freshbooks Integration
 // @namespace MattMaclean

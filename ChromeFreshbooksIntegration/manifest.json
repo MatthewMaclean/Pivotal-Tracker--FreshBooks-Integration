@@ -4,7 +4,6 @@
 	"permissions": [
 		"https://www.pivotaltracker.com/",
 		"https://myplanet.freshbooks.com/api/2.1/xml-in",
-		"http://freshbooks-proxy.coop.mpdagile.com"
 	],
 	"content_scripts":[
 		{
