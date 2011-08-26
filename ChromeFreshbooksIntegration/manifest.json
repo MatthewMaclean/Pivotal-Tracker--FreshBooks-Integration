@@ -3,7 +3,7 @@
 	"version": "1.0",
 	"permissions": [
 		"https://www.pivotaltracker.com/",
-		"https://myplanet.freshbooks.com/api/2.1/xml-in"
+		"https://myplanet.freshbooks.com/"
 	],
 	"content_scripts":[
 		{
