@@ -1,0 +1,44 @@
+	Chrome Specific Instructions
+
+1. Move the ChromeFreshbooksIntegration folder to a location on your computer where you will not delete/move it. This is required as since the extension has not been packaged yet.
+2. Delete the rest of the download file. 
+3. Follow the Main.js Instrucions in the ChromeFreshBooksIntegration folder you previously copied.
+4. Open Chrome
+5. Open the extensions menu (tools>>extensions)
+6. Expand the Developer Mode Menu (located on right side of Extensions Page)
+7. Click "Load unpacked extension" and select the ChromeFreshbooksIntegration folder
+8. To update the app, just follow these instructions again.
+
+
+
+
+	FireFox Specific Instructions
+
+1. Install GreaseMonkey  https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
+2. Drag firefox.user.js into a new tab of firefox
+3. Open the options for Greasemonkey and click "Manage User Scripts"
+4. Right click on the "Freshbooks Integration" User Script and click "Show Containing 
+Folder"
+5. Follow the Main.js instructions
+6. For updating the app, you will have to DELETE THE FOLDER CONTAINING THE USERSCRIPT FILE and before repeating these intructions, starting at step 2. You are required to do this as otherwise the old versions of the file will be used.
+
+
+
+
+
+	Main.js Instructions
+
+1. Open your local version of main.js
+2. Fill in the variables 'name', 'ptKey', 'fbKey', and 'fbURL' in the globalVar object
+
+	- For 'name', enter your full name as you wish it to appear in the Pivotal Tracker tasks
+
+	- For 'ptKey', you need to enter your API Token for Pivotal Tracker. Go to pivotaltracker.com, click the profile menu option, and the API Token should be located at the bottom of the screen
+
+	- For 'fbKey', you need to enter your Authentication Token for Freshbooks. Go to your freshbooks site, click the profile menu option, and the Authentication Token should be located at the bottom of the page.
+
+	- For 'fbURL', you need to enter your API URL. Go to the same page as you were on for the Authentication Token and it too should be located at the bottom of the page.
+
+3. Save the file
+4. If you change your freshbooks password, your pivotal tracker password, or you reset any of the tokens, you will need to re-enter the corresponding key.
+5. If you load a new version of main.js you will need to re-enter the above information.

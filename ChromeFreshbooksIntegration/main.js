@@ -30,8 +30,8 @@ var globalVar = {
 	//edit the following 4 variables appropriately
 	'name' : "",				//your full name
 	'ptKey' : "",                           //pivotaltracker.com >> profile >> API Token at bottom of screen
-	'fbKey' : "",				//your freshbooks site >> profile >> Authentication Token at bottom of screen
 	'fbURL' : "",				//your freshbooks site >> profile >> API URL at bottom of screen
+	'fbKey' : "",				//your freshbooks site >> profile >> Authentication Token at bottom of screen
 	
 	
 	
