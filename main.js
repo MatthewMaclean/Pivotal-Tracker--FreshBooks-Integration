@@ -22,6 +22,40 @@
  *   - Choose from non-time related tasks to populate extra notes field
  */
 
+
+
+/*
+	--------------------------------------Main.js Instructions--------------------------------
+
+1. Fill in the variables 'name', 'ptKey', 'fbKey', and 'fbURL' in the globalVar object
+
+	- For 'name', enter your full name as you wish it to appear in the Pivotal Tracker tasks
+
+	- For 'ptKey', you need to enter your API Token for Pivotal Tracker. Go to pivotaltracker.com, 
+	click the profile menu option, and the API Token should be located at the bottom of the screen. 
+	If there is no key, then you need to click "Create New Token".
+
+	- For 'fbKey', you need to enter your Authentication Token for Freshbooks. Go to your 
+	freshbooks site, click the profile menu option, and the Authentication Token should be 
+	located at the bottom of the page.
+
+	- For 'fbURL', you need to enter your API URL. Go to the same page as you were on 
+	for the Authentication Token and it too should be located at the bottom of the page.
+
+2. Save the file
+
+3. If you change your freshbooks password, your pivotal tracker password, or you reset any 
+of the tokens, you will need to re-enter the corresponding key.
+
+4. If you load a new version of main.js you will need to re-enter the information.
+
+*/
+
+
+
+
+
+
 // ----------------------------- Global Variables ----------------------------- //
 
 
